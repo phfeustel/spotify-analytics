@@ -1,0 +1,13 @@
+
+# Don't put credentials in git
+config/*
+!config/spotify_client_config_example.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.cache*
+
+
+.venv
